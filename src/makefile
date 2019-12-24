@@ -16,6 +16,6 @@ gpu.o : CalcTriangleCuda.o
 CalcTriangleMain.o : CalcTriangleMain.cpp mapfile.hpp
 	$(CXX) $(CXXFLAGS) -c CalcTriangleMain.cpp -o CalcTriangleMain.o
 
-.PHONY : clean cpu
+.PHONY : clean
 clean :
 	rm CalcTriangle  *.o
