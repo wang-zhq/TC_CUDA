@@ -2,7 +2,7 @@
 CCF BDCI 2019 三角形计数 赛题第2名解决方案
 
 ## 程序代码说明
-+ 源程序共有四个文件：CalcTriangleMain.cpp, CalcTriangleCuda.cu, mapfile.hpp
++ 源程序共有3个文件：CalcTriangleMain.cpp, CalcTriangleCuda.cu, mapfile.hpp
   - CalcTriangleMain.cpp：内容包括主程序、由CPU计算实现的子函数、与CUDA的通信接口。
   - CalcTriangleCuda.cu：为GPU计算模块，包括GPU参数设置、由GPU计算实现的子函数等。
   - mapfile.hpp：mmap函数调用函数
